@@ -7,8 +7,7 @@ import { UserService } from '@nx-ng-mfe/shared/data-access-user';
 @Component({
   selector: 'nx-ng-mfe-root',
   template: `
-    <h1>Test</h1>
-    <div class="dashboard-nav">Admin Dashboard</div>
+    <h2 class="dashboard-nav">Admin Dashboard</h2>
     <div *ngIf="isLoggedIn$ | async; else signIn">
       You are authenticated so you can see this content.
     </div>
