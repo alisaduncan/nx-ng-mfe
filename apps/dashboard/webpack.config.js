@@ -46,7 +46,7 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
       remotes: {
-        login: 'http://localhost:4201/remoteEntry.js',
+        login: 'https://nx-ng-mfe-login-72zcxl1al-alisa-duncan.vercel.app/remoteEntry.js',
       },
       shared: share({
         '@angular/core': {
